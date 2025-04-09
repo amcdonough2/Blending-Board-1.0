@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blending Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Blending Board</h1>
+    <div class="board">
+        <div class="tile-area" id="beginning-sounds"></div>
+        <div class="tile-area" id="vowels"></div>
+        <div class="tile-area" id="ending-sounds"></div>
+        <div class="tile-area" id="suffixes"></div>
+    </div>
+    <div class="blending-line" id="blending-line">
+        <div class="drop-zone" data-position="beginning">[Start]</div>
+        <div class="drop-zone" data-position="vowel">[Middle]</div>
+        <div class="drop-zone" data-position="ending">[End]</div>
+        <div class="drop-zone" data-position="suffix">[Suffix]</div>
+    </div>
+    <button onclick="clearBoard()">Clear</button>
+    <script src="script.js"></script>
+</body>
+</html>

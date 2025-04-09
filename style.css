@@ -1,0 +1,45 @@
+
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.tile-area {
+    margin: 10px 0;
+}
+
+.tile {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 8px;
+    color: white;
+    cursor: grab;
+    user-select: none;
+}
+
+.green { background-color: #4CAF50; }
+.yellow { background-color: #FFEB3B; color: black; }
+.red { background-color: #F44336; }
+.purple { background-color: #9C27B0; }
+
+.blending-line {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.drop-zone {
+    width: 100px;
+    height: 50px;
+    border: 2px dashed #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
